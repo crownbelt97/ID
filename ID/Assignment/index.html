@@ -4,13 +4,14 @@
 <meta charset="UTF-8">
 <title>index</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
-<header>
-  <div class="logo">
-	  <a href="index.html" style="font-size: 25px;color: white;"><p>RUNETERRA</p></a>
-  </div>
+<header id="navbar">
+  <div class="logo"> <a href="index.html" style="font-size: 25px;color: white;">
+    <p>RUNETERRA</p>
+    </a> </div>
   <nav class="nav-bar">
     <ul>
       <li><a href="#">HOME</a></li>
@@ -32,16 +33,100 @@
 </header>
 <div class="img"><img class="header-pic" src="Resources/bnet_lightfall_homepage_desktop.mp4" alt=""></div>
 <hr class="new1">
+<p style="color: white; width: 95%;margin: 0px auto 0px auto; font-size: 20px;">FEATURED</p>
 <br>
-<div class="outer">
-  <div class="inner"><img src="header-1.jpg" alt="" style="width: 100%;"></div>
-  <div class="inner"><img src="header-2.jpg" alt="" style="width: 100%;"></div>
-  <div class="inner"><img src="header-3.jpg" alt="" style="width: 100%;"></div>
+<div class="grid">
+  <div class="img-wrapper"><img class="zoom blur" src="Resources/header-1.jpg" alt="" style="width: 100%;">
+    <div class="content fade" style="color: white;">lorem 20</div>
+  </div>
+  <div class="img-wrapper"><img class="zoom blur" src="Resources/header-2.jpg" alt="" style="width: 100%;">
+    <div class="content fade" style="color: white;">lorem 20</div>
+  </div>
+  <div class="img-wrapper"><img class="zoom blur" src="Resources/header-3.jpg" alt="" style="width: 100%;">
+    <div class="content fade" style="color: white;">lorem 20</div>
+  </div>
+  <div class="img-wrapper"><img class="zoom blur" src="Resources/header-4.png" alt="" style="width: 100%;">
+    <div class="content fade" style="color: white;">lorem 20</div>
+  </div>
 </div>
+<hr class="new1">
+<p style="color: white; width: 95%;margin: 0px auto 0px auto; font-size:20px;">LATEST NEWS</p>
+<br>
+<div class="news">
+  <div class="newsimage"> <img src="Resources/header-3.jpg" alt="" style="width: 100%;"> </div>
+  <div class="text">
+    <h1 style="color: white; margin: 20px auto auto auto;">Kukujiao</h1>
+    <p style="color: white;">DIVINE HOTFIX 1.2.3</p>
+  </div>
+</div>
+<br>
+<div class="news">
+  <div class="newsimage"> <img src="Resources/header-3.jpg" alt="" style="width: 100%;"> </div>
+  <div class="text">
+    <h1 style="color: white; margin: 20px auto auto auto;">This is heading.</h1>
+    <p style="color: white;">DIVINE HOTFIX 1.2.3</p>
+  </div>
+</div>
+<br>
+<div class="news">
+  <div class="newsimage"> <img src="Resources/header-3.jpg" alt="" style="width: 100%;"> </div>
+  <div class="text">
+    <h1 style="color: white; margin: 20px auto auto auto;">This is heading.</h1>
+    <p style="color: white;">DIVINE HOTFIX 1.2.3</p>
+  </div>
+</div>
+<br>
+<footer class="footer" style="background-color: #14191e;">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4 style="color: white;">DIVINE</h4>
+        <ul>
+          <li><a href="#">News</a> </li>
+          <li><a href="#">Get Divine</a> </li>
+          <li><a href="#">Seasons</a> </li>
+          <li><a href="#">Community</a> </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color:white;">RUNETERRA</h4>
+        <ul>
+          <li><a href="#">Careers</a> </li>
+          <li><a href="#">Tech Blog</a> </li>
+          <li><a href="#">Press Room</a> </li>
+          <li><a href="#">Runeterra Newsroom</a> </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: white;">STORE</h4>
+        <ul>
+          <li><a href="#">What's new</a> </li>
+          <li><a href="#">Merchandise</a> </li>
+          <li><a href="#">Soundtraks</a> </li>
+          <li><a href="#">Runeterra Rewards</a> </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: white;">follow us</h4>
+        <div class="social-links"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
 <script>
 	const hamburger = document.querySelector(".hamburger");
 	const navbar = document.querySelector(".nav-bar");
 	hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
+	
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+    document.getElementById("navbar").style.background = "rgba(0, 0, 0, 1)";
+  } else {
+    document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.2)";
+  }
+}
 	</script>
 </body>
 </html>
