@@ -9,20 +9,39 @@
 <body>
 <header>
   <div class="logo">
-    <p>RUNETERRA</p>
+	  <a href="index.html" style="font-size: 25px;color: white;"><p>RUNETERRA</p></a>
   </div>
-  <nav>
+  <nav class="nav-bar">
     <ul>
       <li><a href="#">HOME</a></li>
-		<li><a href="#">STORE</a></li>
-		<li><a href="#">MY ACCOUNT</a></li>
-		<li><a href="#">SEARCH</a></li>
+      <li><a href="#">STORE</a></li>
+      <li><a href="#">MY ACCOUNT</a></li>
+      <li><a href="#">SEARCH</a></li>
     </ul>
   </nav>
-	<button><a href="#"><h4 style="color: #f5f5f5">PLAY DIVINE</h4></a></button>
+  <button>
+  <a href="#">
+  <h4 style="color: #f5f5f5">PLAY DIVINE</h4>
+  </a>
+  </button>
+  <div class= "hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
 </header>
-	<div class="img"><img class="header-pic" src="Resources/bnet_lightfall_homepage_desktop.mp4" alt=""></div>
-	<div class="img"><img class="header-pic" src="Resources/bnet_lightfall_homepage_desktop.mp4" alt=""></div>
-	<div class="img"><img class="header-pic" src="Resources/bnet_lightfall_homepage_desktop.mp4" alt=""></div>
+<div class="img"><img class="header-pic" src="Resources/bnet_lightfall_homepage_desktop.mp4" alt=""></div>
+<hr class="new1">
+<br>
+<div class="outer">
+  <div class="inner"><img src="header-1.jpg" alt="" style="width: 100%;"></div>
+  <div class="inner"><img src="header-2.jpg" alt="" style="width: 100%;"></div>
+  <div class="inner"><img src="header-3.jpg" alt="" style="width: 100%;"></div>
+</div>
+<script>
+	const hamburger = document.querySelector(".hamburger");
+	const navbar = document.querySelector(".nav-bar");
+	hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
+	</script>
 </body>
 </html>
