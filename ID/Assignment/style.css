@@ -74,7 +74,6 @@ hr.new1 {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 10px;
 }
-
 .img-wrapper {
   position: relative;
   overflow: hidden;
@@ -105,7 +104,6 @@ hr.new1 {
 .img-wrapper:hover > img.blur {
   filter: blur(5px);
 }
-
 .img-wrapper > .content.fade {
   opacity: 0;
 }
@@ -234,45 +232,42 @@ section .contentBx .formBx .sci li {
 section .contentBx .formBx .sci li:hover {
   background: #232935;
 }
-
-
 /*-----------------------------FEATURE PAGE-------------------------------------------*/
 .feature {
-	width: 55%; 
-	text-align: center; 
-	margin: 30px auto 0px auto;
+  width: 55%;
+  text-align: center;
+  margin: 30px auto 0px auto;
 }
-
 .feature p {
-	color: white;
-	font-size: 20px;
-	text-align: left;
-	margin-top: 30px;
-	margin-bottom: 30px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 .feature hr {
-	margin: 30px auto 30px auto;
+  margin: 30px auto 30px auto;
 }
 .feature-1 {
-	display: grid;
-	grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-
 .feature h3 {
-	color: white;
-	font-size: 25px;
-	text-align: left;
-	margin-top: 30px;
-	letter-spacing: 1px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+.feature h1 {
+	text-align: center;
+	color:white;
+	font-size: 50px;
+	letter-spacing: 1.5px;
 }
 @media only screen and (max-width: 980px) {
   button {
-    background: #967526;
-    border: 2px solid #ffce1f;
-    padding: 9px 25px;
-    margin-left: 50%;
-    float: right;
+    display: none;
   }
   .hamburger {
     display: block;
@@ -290,7 +285,7 @@ section .contentBx .formBx .sci li:hover {
     top: 85px;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     background: #11101b;
     transition: 0.5s;
     overflow: hidden;
@@ -385,23 +380,7 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
-@media only screen and (max-width: 860px) {
-  button {
-    background: #967526;
-    border: 2px solid #ffce1f;
-    padding: 9px 25px;
-    margin-left: 40%;
-    float: right;
-  }
-}
 @media only screen and (max-width: 767px) {
-  button {
-    background: #967526;
-    border: 2px solid #ffce1f;
-    padding: 9px 25px;
-    margin-left: 20%;
-    float: right;
-  }
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
@@ -440,4 +419,46 @@ ul {
     margin: 30px 0 10px;
     font-weight: 500;
   }
+}
+@media only screen and (max-width: 400px) {
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .newsimage {
+    text-align: center;
+    width: 100%;
+  }
+	.nav-bar {
+    height: 0;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #11101b;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  #navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10;
+    height: 8%;
+  }
+	.feature h1{
+		font-size: 30px;
+		letter-spacing: normal;
+	}
+	.feature {
+  width: 90%;
+  text-align: center;
+  margin: 30px auto 0px auto;
+}
 }
