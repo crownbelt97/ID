@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
 /*----------------------------------BODY----------------------------------*/
-
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +9,7 @@
 body {
   background-color: #12171c;
 }
-
 /*----------------------------------NAVIGATION BAR----------------------------------*/
-
 #navbar {
   width: 100%;
   display: flex;
@@ -41,14 +37,14 @@ body {
   list-style: none;
   padding: 0px 15px;
 }
-a, button {
+a, .nav-button {
   font-size: 16px;
   font-weight: 500;
   color: #b7b9bb;
   text-decoration: none;
   cursor: pointer;
 }
-button {
+.nav-button {
   background: #967526;
   border: 2px solid #ffce1f;
   padding: 9px 25px;
@@ -57,13 +53,45 @@ button {
   width: 100%;
   height: 100%;
   background-size: cover;
+  display: block;
 }
 .hamburger {
   display: none;
 }
-
 /*----------------------------------HOMEPAGE----------------------------------*/
-
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+.caption {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.caption p {
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: left
+}
+a, .header-button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b7b9bb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header-button {
+  background: #967526;
+  border: 2px solid #ffce1f;
+  padding: 9px 25px;
+}
+.header-pic2 {
+  display: none;
+}
 hr.new1 {
   margin: 20px auto 0px auto;
   width: 95%;
@@ -118,9 +146,7 @@ hr.new1 {
 .img-wrapper:hover > .content.fade {
   opacity: 1;
 }
-
 /*------------------------LOGIN PAGE--------------------------------------*/
-
 section {
   position: relative;
   width: 100%;
@@ -241,9 +267,7 @@ section .contentBx .formBx .sci li {
 section .contentBx .formBx .sci li:hover {
   background: #232935;
 }
-
 /*-----------------------------FEATURE PAGE-------------------------------------------*/
-
 .feature {
   width: 55%;
   text-align: center;
@@ -276,9 +300,7 @@ section .contentBx .formBx .sci li:hover {
   font-size: 50px;
   letter-spacing: 1.5px;
 }
-
 /*-----------------------------FOOTER-------------------------------------------*/
-
 .footer {
   padding: 50px 0;
 }
@@ -336,11 +358,18 @@ section .contentBx .formBx .sci li:hover {
   color: #24262b;
   background-color: #ffffff;
 }
-
 /*----------------------------------RESPONSIVE @980PX----------------------------------*/
-
 @media only screen and (max-width: 980px) {
-  button {
+  .caption {
+    top: 70%;
+    left: 35%;
+  }
+  .caption p {
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: left
+  }
+  .nav-button {
     display: none;
   }
   .hamburger {
@@ -394,11 +423,17 @@ section .contentBx .formBx .sci li:hover {
 ul {
   list-style: none;
 }
-
-
 /*----------------------------------RESPONSIVE FROM TABLET VIEW----------------------------------*/
-
 @media only screen and (max-width: 767px) {
+  .caption {
+    top: 70%;
+    left: 35%;
+  }
+  .caption p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: left
+  }
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
@@ -438,10 +473,24 @@ ul {
     font-weight: 500;
   }
 }
-
 /*----------------------------------RESPONSIVE FROM MOBILE VIEW----------------------------------*/
-
 @media only screen and (max-width: 400px) {
+  .header-pic {
+    display: none;
+  }
+  .header-pic2 {
+    display: unset;
+    width: 100%;
+  }
+  .caption {
+    top: 82%;
+    left: 35%;
+  }
+  .caption p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: left
+  }
   .grid {
     width: 100%;
     display: grid;
