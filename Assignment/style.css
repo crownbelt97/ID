@@ -482,7 +482,7 @@ ul {
   }
   .header-pic2 {
     display: unset;
-    width: 100%;
+    max-width: 100%;
   }
   .caption {
     top: 82%;
