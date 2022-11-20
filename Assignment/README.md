@@ -11,39 +11,48 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 
 ## Architecture
 
+- Homepage (index.html)
+
+- Login & Sign up Page (login.html)
+
+- Game Season Page (feature.html)
+
 ### Colors
 
 - Homepage (index.html)
 
-  - Background Color - Dark Grey (#12171c)
-  - Navigation Bar Color - Transulent Black (#000000)
+  - Background Color - Dark Grey (#12171C)
+  - Background Scrolling Color - Black (#000000)
+  - Navigation Bar Color and Transparency - Black and Transparent Intensity (#000000, 0.2)
   - Button Background Color - Gold Yellow (#967526)
-  - Button Border Color - Yellow (#ffce1f)
-  - Text Color - White (#ffffff)
-  - Social Media Button Color - Light Grey (#b7b9bb)
-  - Footer Color - Soft Black (#14191e)
+  - Button Border Color - Yellow (#FFCE1F)
+  - Text Color - White (#FFFFFF)
+  - Social Media Button Color - Light Grey (#B7B9BB)
+  - Footer Color - Soft Black (#14191E)
 
 - Login & Sign up Page (login.html)
 
-  - Background Color - Dark Grey (#12171c)
-  - Navigation Bar Color - Transulent Black (#000000)
+  - Background Color - Dark Grey (#12171C)
+  - Background Scrolling Color - Black (#000000)
+  - Navigation Bar Color and Transparency - Black and Transparent Intensity (#000000, 0.2)
   - Button Background Color - Gold Yellow (#967526)
-  - Button Border Color - Yellow (#ffce1f)
-  - Image Background Gradient Color - Soft Sky Blue to Light Fuchsia (#e91e63, #03a9f4)
-  - Text Color - White (#ffffff)
-  - Form Text Color - Light Steel Blue (#607d8b)
-  - Social Media Button Color - Light Grey (#b7b9bb)
-  - Footer Color - Soft Black (#14191e)
+  - Button Border Color - Yellow (#FFCE1F)
+  - Image Background Gradient Color - Soft Sky Blue to Light Fuchsia (#E91E63, #03A9F4)
+  - Text Color - White (#FFFFFFF)
+  - Form Text Color - Light Steel Blue (#607D8B)
+  - Social Media Button Color - Light Grey (#B7B9BB)
+  - Footer Color - Soft Black (#14191E)
 
 - Game Season Page (feature.html)
 
-  - Background Color - Dark Grey (#12171c)
-  - Navigation Bar Color - Transulent Black (#000000)
+  - Background Color - Dark Grey (#12171C)
+  - Background Scrolling Color - Black (#000000)
+  - Navigation Bar Color and Transparency - Black and Transparent Intensity (#000000, 0.2)
   - Button Background Color - Gold Yellow (#967526)
-  - Button Border Color - Yellow (#ffce1f)
-  - Text Color - White (#ffffff)
-  - Social Media Button Color - Light Grey (#b7b9bb)
-  - Footer Color - Soft Black (#14191e)
+  - Button Border Color - Yellow (#FFCE1F)
+  - Text Color - White (#FFFFFF)
+  - Social Media Button Color - Light Grey (#B7B9BB)
+  - Footer Color - Soft Black (#14191E)
 
 ## Softwares and Languages
 
@@ -57,7 +66,7 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 
 ## Files
 
-1. Resources (folder)
+1. Resources (Path folder)
 2. index.html (HTML)
 3. feature.html (HTML)
 4. login.html (HTML)
