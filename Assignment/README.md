@@ -1,6 +1,6 @@
 # HALFBYTE
 
-Halfbyte is a video game company established in November 2022 by Jeremy Chan.
+Halfbyte is a video game company established in November 2022 by Jeremy Chan. <br />
 Divine is a first-person shooter free-to-play multiplayer video game created by Halfbyte.
 
 ## Website Pages
@@ -53,3 +53,16 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 4. HTML
 5. CSS
 6. Javascript
+7. Markdown documentation
+
+## Files
+
+1. Resources (folder)
+2. index.html (HTML)
+3. feature.html (HTML)
+4. login.html (HTML)
+5. script.js (Javascript)
+6. style.css (CSS)
+7. Prototype (Xd)
+8. Wireframe (Xd)
+9. README.md (Markdown documentation)
