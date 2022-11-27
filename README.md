@@ -9,13 +9,28 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 - Login & Sign up Page
 - Game Season Page
 
-## Architecture
+## Architectures
 
 - Homepage (index.html)
+
+  - Video falls behind to the navigation bar to make it more visually appealing for the audience
+  - Text and buttons are positioned absolute to fit the video under the navigation bar, since it's position absolute, it is responsive as well
+  - Zoom & Blur animation image when hovering over the images under "Featured" tab
 
 - Login & Sign up Page (login.html)
 
 - Game Season Page (feature.html)
+
+  - Video falls behind to the navigation bar to make it more visually appealing for the audience
+
+- Navigation Bar
+
+  - Navigation is responsive which means when it's small media screen size the hamburger icon will appear
+  - Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color to prevent text from overlapping each other
+
+- Footer
+  - Applied animations on Footer whereby when it's hovered, the text will shift slightly to the right
+  - Footer's social media icon will change color when it's hovered over as well
 
 ## Colors
 
