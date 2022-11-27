@@ -1,7 +1,7 @@
 # HALFBYTE
 
 Halfbyte is a video game company established in November 2022 by Jeremy Chan. <br />
-Divine is a first-person shooter free-to-play multiplayer video game created by Halfbyte.
+Divine is a first-person shooter free-to-play multiplayer video game created by Halfbyte that will get you hooked for hundred of hours.
 
 ## Website Pages
 
@@ -9,28 +9,36 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 - Login & Sign up Page
 - Game Season Page
 
-## Architectures
+## Architectures & Designs
 
 - Homepage (index.html)
 
-  - Video falls behind to the navigation bar to make it more visually appealing for the audience
-  - Text and buttons are positioned absolute to fit the video under the navigation bar, since it's position absolute, it is responsive as well
-  - Zoom & Blur animation image when hovering over the images under "Featured" tab
+  1. Video falls behind to the navigation bar to make it more visually appealing for the audience
+  2. Text and buttons are positioned absolute to fit the video under the navigation bar, since it's position absolute
+  3. Zoom & Blur animation image when hovering over the images under "Featured" tab
+  4. **ALL CONTENTS FOR THIS WEBPAGE ARE FULLY RESPONSIVE**
 
 - Login & Sign up Page (login.html)
 
+  1. All buttons in this webpage has hover animations to make it as interactive as possible
+  2. Picture on the left and contact form on the right as the same width size across all media size UNLESS it switches to a smaller media screen size
+  3. Notice when this webpage transits to a smaller media screen size, the picture will then blend together with the contact form
+  4. **ALL CONTENTS FOR THIS WEBPAGE ARE FULLY RESPONSIVE**
+
 - Game Season Page (feature.html)
 
-  - Video falls behind to the navigation bar to make it more visually appealing for the audience
+  1. Video falls behind to the navigation bar to make it more visually appealing for the audience
+  2. All contents inside feature.html are center aligned to better fit the webpage
+  3. **ALL CONTENTS FOR THIS WEBPAGE ARE FULLY RESPONSIVE**
 
 - Navigation Bar
 
-  - Navigation is responsive which means when it's small media screen size the hamburger icon will appear
-  - Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color to prevent text from overlapping each other
+  1. Navigation is responsive which means when it's small media screen size the hamburger icon will appear
+  2. Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color to prevent text from overlapping each other
 
 - Footer
-  - Applied animations on Footer whereby when it's hovered, the text will shift slightly to the right
-  - Footer's social media icon will change color when it's hovered over as well
+  1. Applied animations on Footer whereby when it's hovered, the text will shift slightly to the right
+  2. Footer's social media icon will change color when it's hovered over as well
 
 ## Colors
 
