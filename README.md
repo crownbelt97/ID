@@ -5,9 +5,9 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 
 ## Website Pages
 
-- Home page
-- Login & Sign up Page
-- Game Season Page
+- Home page (index.html)
+- Login & Sign up Page (login.html)
+- Game Season Page (feature.html)
 
 ## Architectures & Designs
 
