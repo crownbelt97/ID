@@ -35,10 +35,12 @@ Divine is a first-person shooter free-to-play multiplayer video game created by 
 
   1. Navigation is responsive which means when it's small media screen size the hamburger icon will appear
   2. Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color to prevent text from overlapping each other
+  3. **ALL CONTENTS FOR THIS SECTION ARE FULLY RESPONSIVE**
 
 - Footer
   1. Applied animations on Footer whereby when it's hovered, the text will shift slightly to the right
   2. Footer's social media icon will change color when it's hovered over as well
+  3. **ALL CONTENTS FOR THIS SECTION ARE FULLY RESPONSIVE**
 
 ## Colors
 
