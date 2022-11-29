@@ -60,21 +60,21 @@ a, .nav-button {
   background: #967526;
   border: 2px solid #ffce1f;
   padding: 9px 25px;
-	transition: 0.6s;
-	overflow: hidden;
+  transition: 0.6s;
+  overflow: hidden;
+  color: white;
 }
 .nav-button a {
   color: white;
 }
-
 .header-pic {
   width: 100%;
   height: 100%;
   background-size: cover;
   display: block;
 }
-.header-button a {
-  color: white;
+.header-button {
+  color: white !important;
 }
 .hamburger {
   display: none;
@@ -308,57 +308,103 @@ section .contentBx .formBx .sci li {
 section .contentBx .formBx .sci li:hover {
   background: #232935;
 }
-
 #inputt {
-	color: white;
+  color: white;
 }
-
 #inputt2 {
-	color: white;
+  color: white;
 }
-
 .sci li {
-	color: white;
-}
-/*-----------------------------FEATURE PAGE-------------------------------------------*/
-.featurevid {
-	width: 100%;
-}
-
-.feature {
-  width: 55%;
-  text-align: center;
-  margin: 30px auto 0px auto;
-}
-.feature p {
   color: white;
-  font-size: 20px;
-  text-align: left;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
-.feature hr {
-  margin: 30px auto 30px auto;
+/*-----------------------------FEATURE PAGE-----------------------------------------*/
+.featurevid2 {
+  width: 100%;
+  height: 100%;
 }
-.feature-1 {
+.featureimg2 {
+  display: none;
+}
+.new2 {
+  border: 1px solid #d49825;
+}
+.firstfeatureouter {
+  width: 350px;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+}
+.feature1img {
+  width: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.iconfeature {
+  width: 50px;
+  margin: 12.5px 25px 12.5px 25px;
+}
+.firstfeatureinner {
+  background-color: #1d232a;
+  color: white;
+  height: 70px;
+}
+.firstfeatureinner:hover {
+  background-color: #967523;
+  cursor: pointer;
+}
+.feature1 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 0.5fr 1fr;
+  padding-top: 12px;
+  padding-left: 20px;
 }
-.feature h3 {
+.feature1 p {
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.firstfeatureinner1 {
+  background-color: #13161a;
   color: white;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.firstfeatureinner1 p {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  font-weight: bold;
   letter-spacing: 1px;
 }
-.feature h1 {
-  text-align: center;
+.firstfeatureinner2 {
+  background-color: #13161a;
   color: white;
-  font-size: 50px;
-  letter-spacing: 1.5px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
 }
-.featurepic {
-	width: 100%;
+.featurebutton {
+  padding-top: 10px;
+}
+a, .nav-button2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b7b9bb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-button2 {
+  background: #967526;
+  border: 2px solid #ffce1f;
+  padding: 9px 25px;
+  transition: 0.6s;
+  overflow: hidden;
+  width: 90%;
+  color: white;
+}
+.nav-button2 a {
+  color: white;
 }
 /*-----------------------------FOOTER-------------------------------------------*/
 .footer {
@@ -499,6 +545,27 @@ section .contentBx .formBx .sci li {
   margin: 0 7px;
   cursor: pointer;
 }
+@media only screen and (max-width: 950px) {
+  .firstfeatureouter {
+    margin-bottom: 100px;
+    right: 25%;
+    bottom: 25%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .firstfeatureouter {
+    margin-bottom: 100px;
+    right: 25%;
+    bottom: 33%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .firstfeatureouter {
+    margin-bottom: 100px;
+    right: 25%;
+    bottom: 35%;
+  }
+}
 /*----------------------------------RESPONSIVE FROM TABLET VIEW----------------------------------*/
 @media only screen and (max-width: 767px) {
   .caption {
@@ -546,6 +613,18 @@ section .contentBx .formBx .sci li {
     text-align: center;
     margin: 30px 0 10px;
     font-weight: 500;
+  }
+  .firstfeatureouter {
+    margin-bottom: 100px;
+    right: 5%;
+    bottom: 15%;
+  }
+  .featurevid2 {
+    display: none;
+  }
+  .featureimg2 {
+    display: unset;
+    width: 100%;
   }
 }
 /*----------------------------------RESPONSIVE FROM MOBILE VIEW----------------------------------*/
@@ -606,5 +685,10 @@ section .contentBx .formBx .sci li {
     width: 90%;
     text-align: center;
     margin: 30px auto 0px auto;
+  }
+  .firstfeatureouter {
+    margin-bottom: 100px;
+    right: 5%;
+    bottom: 20%;
   }
 }
