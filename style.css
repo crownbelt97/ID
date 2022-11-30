@@ -411,7 +411,7 @@ section .contentBx .formBx .sci li:hover {
   text-align: center;
 }
 .featureinner1 {
-	margin: auto auto auto 50px;
+  margin: auto auto auto 50px;
 }
 a, .nav-button2 {
   font-size: 16px;
@@ -431,6 +431,31 @@ a, .nav-button2 {
 }
 .nav-button2 a {
   color: white;
+}
+.featurecolumn {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+	height: 370px;
+}
+.details {
+  margin: 20px auto 20px auto;
+  width: 95%;
+}
+.details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card p {
+  color: darkgrey;
+	margin-top: 10px;
+}
+.imgstyle {
+	width: 100%; 
+	border: 1px solid #49505a; 
+	border-radius: 5px;
 }
 /*-----------------------------FOOTER-------------------------------------------*/
 .footer {
@@ -655,6 +680,21 @@ section .contentBx .formBx .sci li {
     display: unset;
     width: 100%;
   }
+  .featurecolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+	  height:100%;
+  }
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  padding: 16px;
+  text-align: center;
+  background-color: #1d2227;
+height:100%;
+}
 }
 /*----------------------------------RESPONSIVE FROM MOBILE VIEW----------------------------------*/
 @media only screen and (max-width: 400px) {
@@ -720,7 +760,7 @@ section .contentBx .formBx .sci li {
     right: 5%;
     bottom: 20%;
   }
-	.featureinner1 {
-	margin: auto auto 20px auto;
-}
+  .featureinner1 {
+    margin: auto auto 20px auto;
+  }
 }
