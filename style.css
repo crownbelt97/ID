@@ -387,32 +387,31 @@ section .contentBx .formBx .sci li:hover {
 .featurebutton {
   padding-top: 10px;
 }
-
 .featureouter {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	border: 1px solid white;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.featureinner1 h1{
-	text-align: left;
-	color: white;
-	font-weight: bold;
-	font-size:30px;
+.featureinner1 h1 {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
 }
-
-.featureinner1 p{
-	text-align: left;
-	color: grey;
-	font-weight: bold;
-	font-size:15px;
+.featureinner1 p {
+  text-align: left;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 15px;
 }
-
 .featureinner {
-	text-align: center;
+  text-align: center;
+}
+.featureinner1 {
+	margin: auto auto auto 50px;
 }
 a, .nav-button2 {
   font-size: 16px;
@@ -585,6 +584,9 @@ section .contentBx .formBx .sci li {
     right: 25%;
     bottom: 33%;
   }
+  .featureouter {
+    grid-template-columns: 1fr;
+  }
 }
 @media only screen and (max-width: 800px) {
   .firstfeatureouter {
@@ -718,4 +720,7 @@ section .contentBx .formBx .sci li {
     right: 5%;
     bottom: 20%;
   }
+	.featureinner1 {
+	margin: auto auto 20px auto;
+}
 }
