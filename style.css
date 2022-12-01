@@ -387,6 +387,9 @@ section .contentBx .formBx .sci li:hover {
 .featurebutton {
   padding-top: 10px;
 }
+.trailervid {
+  width: 80%;
+}
 .featureouter {
   margin-top: 20px;
   display: grid;
@@ -406,12 +409,13 @@ section .contentBx .formBx .sci li:hover {
   color: darkgrey;
   font-weight: bold;
   font-size: 15px;
+  margin-bottom: 10px;
 }
 .featureinner {
   text-align: center;
 }
 .featureinner1 {
-  margin: auto auto auto 50px;
+  margin: auto auto auto auto !important;
 }
 a, .nav-button2 {
   font-size: 16px;
@@ -611,6 +615,9 @@ section .contentBx .formBx .sci li {
   .featureouter {
     grid-template-columns: 1fr;
   }
+  .trailervid {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 800px) {
   .firstfeatureouter {
@@ -621,8 +628,15 @@ section .contentBx .formBx .sci li {
 }
 /*----------------------------------RESPONSIVE FROM TABLET VIEW----------------------------------*/
 @media only screen and (max-width: 767px) {
-  .caption {
+  .header-pic {
     display: none;
+  }
+  .header-pic2 {
+    display: unset;
+    width: 100%;
+  }
+  .thumbnail {
+    width: 100%;
   }
   .caption p {
     font-size: 25px;
@@ -630,7 +644,10 @@ section .contentBx .formBx .sci li {
     text-align: left
   }
   .img-wrapper {
-    width: 80%;
+    width: 100%;
+  }
+  .newscontent {
+    width: 100%;
   }
   .footer-col {
     width: 50%;
@@ -694,15 +711,14 @@ section .contentBx .formBx .sci li {
     margin-bottom: 20px;
     height: 100%;
   }
-}
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  padding: 16px;
-  text-align: center;
-  background-color: #1d2227;
-  height: 100%;
-}
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    padding: 16px;
+    text-align: center;
+    background-color: #1d2227;
+    height: 100%;
+  }
 }
 /*----------------------------------RESPONSIVE FROM MOBILE VIEW----------------------------------*/
 @media only screen and (max-width: 400px) {
