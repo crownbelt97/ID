@@ -523,7 +523,7 @@ a, .nav-button2 {
 .copyright {
   color: #bbbbbb;
 }
-/*----------------------------------RESPONSIVE @980PX----------------------------------*/
+/*----------------------------------RESPONSIVE AT 980PX MEDIA SCREEN----------------------------------*/
 @media only screen and (max-width: 980px) {
   .caption {
     top: 70%;
@@ -599,6 +599,7 @@ section .contentBx .formBx .sci li {
   margin: 0 7px;
   cursor: pointer;
 }
+/*----------------------------------RESPONSIVE AT 950PX MEDIA SCREEN----------------------------------*/
 @media only screen and (max-width: 950px) {
   .firstfeatureouter {
     margin-bottom: 100px;
@@ -606,6 +607,7 @@ section .contentBx .formBx .sci li {
     bottom: 25%;
   }
 }
+/*----------------------------------RESPONSIVE AT 900PX MEDIA SCREEN----------------------------------*/
 @media only screen and (max-width: 900px) {
   .firstfeatureouter {
     margin-bottom: 100px;
@@ -619,6 +621,7 @@ section .contentBx .formBx .sci li {
     width: 100%;
   }
 }
+/*----------------------------------RESPONSIVE AT 800PX MEDIA SCREEN----------------------------------*/
 @media only screen and (max-width: 800px) {
   .firstfeatureouter {
     margin-bottom: 100px;
